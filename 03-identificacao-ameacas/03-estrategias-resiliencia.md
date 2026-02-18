@@ -25,4 +25,16 @@ Várias camadas de segurança. Se uma falhar, as outras ainda protegem.
 ---
 
 ## 💡 Meus insights
-[adicione aqui suas observações pessoais]
+- **Gerenciamento de Configuração:** Se não sei o que tem na rede, não posso proteger. Inventário atualizado é básico mas muita empresa falha nisso.
+- **Controle de Mudanças:** Toda mudança precisa de plano de reversão. Já vi sistema parar por causa de atualização sem teste. Aprendi que "testar antes" não é frescura.
+- **Hot/Warm/Cold site:**
+  - **Hot site:** caro mas necessário pra sistema crítico (banco, hospital)
+  - **Warm site:** meio termo
+  - **Cold site:** mais barato, mas demora dias pra ativar
+- **Defesa em profundidade:** Camadas e mais camadas. Se uma falha, a outra segura. É tipo roupa em dia frio - várias camadas.
+- **Honeypot:** Adorei a ideia! Deixar um sistema falso pra atrair atacante enquanto ele perde tempo ali, a gente detecta e bloqueia.
+- **Honeynet:** Vários honeypots juntos, uma rede inteira de engano.
+- **Honeyfile:** Arquivo falso tipo "senhas.txt" que dispara alarme se alguém abrir. Genial!
+- **Como Purple Team:** Quero aprender a configurar honeypots e honeynets pra estudar como atacantes pensam e agem.
+- **Aprendizado:** O plano não é "se nunca vai cair", é "quando cair, a gente levanta rápido".
+- **Dúvida:** Honeypot pode ser usado contra a gente se o atacante descobrir que é falso?
