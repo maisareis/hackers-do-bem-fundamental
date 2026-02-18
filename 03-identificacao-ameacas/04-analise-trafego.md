@@ -33,6 +33,11 @@ Captura e analisa pacotes de rede em tempo real. Mostra o que está trafegando n
   - Ver os pacotes passando em tempo real é fascinante.
   - Filtros como `tcp.port == 80`, `ip.addr == 192.168.1.1` ajudam a não se perder.
   - Dá pra ver requisição HTTP, DNS, até senha se não tiver criptografia (assustador!).
+  - **Importante:** não precisa olhar pacote por pacote! Uso filtros de exibição:
+    - `http.request or tls.handshake.type == 1 or dns` → tráfego suspeito geral
+    - `tcp.flags.syn == 1 and tcp.flags.ack == 0` → conexões estranhas
+    - `frame.len > 1000` → pacotes grandes (possível exfiltração)
+    - `tcp.analysis.flags` → erros de TCP
 
 - **Na prática:** 
   - Ping e traceroute são os primeiros passos quando alguém fala "a internet caiu".
@@ -44,6 +49,3 @@ Captura e analisa pacotes de rede em tempo real. Mostra o que está trafegando n
 
 - **Curiosidade:** 
   - Aprendi que HTTP é texto puro, dá pra ler tudo. HTTPS já é criptografado. Por isso que hoje em dia tudo é HTTPS.
-
-- **Dúvida:** 
-  - No Wireshark, como filtrar só tráfego suspeito sem ter que olhar pacote por pacote?
