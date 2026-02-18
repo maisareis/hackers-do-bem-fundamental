@@ -19,4 +19,9 @@ Banco de dados mundial de vulnerabilidades conhecidas (identificadas como CVE-AN
 ---
 
 ## 💡 Meus insights
-[adicione aqui suas observações pessoais]
+- **Varredura intrusiva vs passiva:** Intrusiva é quando você "bate na porta" pra ver se abre, passiva é quando só observa de longe. Cada uma tem seu momento certo.
+- **Credenciada vs não credenciada:** Credenciada é como se fosse um funcionário testando o próprio sistema. Não credenciada é hacker de fora tentando entrar.
+- **Falso negativo é o pior:** Prefiro mil alertas falsos do que um ataque passar despercebido. Falso negativo deixa a porta aberta.
+- **Na prática:** Empresa grande precisa scan semanal. Pequena talvez mensal. Mas nunca deixar de fazer.
+- **Dúvida:** Será que scan intrusivo pode derrubar um sistema? Preciso pesquisar isso.
+- **Aprendizado:** Mais importante que achar vulnerabilidade é corrigir ela rápido. Scan sem remediação não serve de nada.
