@@ -34,6 +34,8 @@ Biometria usa características físicas ou comportamentais únicas para identifi
   - **FAR (False Acceptance Rate):** Aceitar quem não deveria. É o PIOR erro!
   - **FRR (False Rejection Rate):** Negar acesso a quem deveria ter. Frustrante mas menos grave.
   - **CER/EER:** Ponto de equilíbrio entre FAR e FRR. Quanto menor, melhor o sistema.
+  - **Aprendizado:** 
+  - Biometria é prática mas não é infalível. Por isso MFA é tão importante.
 
 - **Tipos de biometria:**
 
