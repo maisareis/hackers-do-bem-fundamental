@@ -4,12 +4,11 @@ Minhas anotações autorais da formação Hackers do Bem.
 
 ## 📚 Módulos
 
-| Módulo | Link |
-|--------|------|
-| **1 - Princípios e Engenharia Social** | [Acessar](./modulo-1-principios) |
-| **2 - Malwares e Controles** | [Acessar](./modulo-2-malwares) |
-| **3 - Identificação de Ameaças** | [Acessar](./modulo-3-ameacas) |
-| **4 - Controles de Acesso** | [Acessar](./modulo-4-acesso) |
-
+| Módulo | Descrição | Link |
+|--------|-----------|------|
+| **1 - Princípios e Engenharia Social** | Fundamentos, carreiras, tipos de hackers, engenharia social | [Acessar](https://github.com/maisareis/hackers-do-bem-fundamental/tree/main/01-principios-engenharia-social) |
+| **2 - Malwares e Controles** | Tipos de malware, detecção, controles, ameaças | [Acessar](https://github.com/maisareis/hackers-do-bem-fundamental/tree/main/02-malwares-controles) |
+| **3 - Identificação de Ameaças** | Vulnerabilidades, pentest, resiliência, análise de tráfego | [Acessar](https://github.com/maisareis/hackers-do-bem-fundamental/tree/main/03-identificacao-ameacas) |
+| **4 - Controles de Acesso** | IAM, autenticação, tecnologias, biometria | [Acessar](https://github.com/maisareis/hackers-do-bem-fundamental/tree/main/04-controles-acesso) |
 ## 🛠️ Comandos Úteis
 [comandos-uteis.md](./comandos-uteis.md)
