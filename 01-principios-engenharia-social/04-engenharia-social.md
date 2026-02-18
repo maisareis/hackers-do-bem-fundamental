@@ -23,4 +23,12 @@ Manipular pessoas para obter informações ou acesso. Não precisa invadir o sis
 ---
 
 ## 💡 Meus insights
-[adicione aqui suas observações pessoais]
+- **Engenharia social é assustadora:** Não precisa saber de tecnologia, só de gente. É manipular confiança, medo, pressa.
+- **Já quase caí:** Lembro de um email "sua conta vai ser bloqueada" com um link estranho. Quase cliquei. Hoje sei que era phishing.
+- **Urgência é bandeira vermelha:** Toda vez que alguém fala "agora ou vai perder", é golpe. Ninguém legítimo cria esse desespero.
+- **Spear phishing é tenso:** Se sabem seu nome, onde trabalha, seu cargo... parece muito real. Dá medo de verdade.
+- **Whaling:** Imagina um golpista pesquisar a vida do CEO pra aplicar um golpe personalizado. É assustador.
+- **Como Purple Team:** Quero aprender a simular esses ataques pra treinar as pessoas. Melhor cair num simulado do que no golpe real.
+- **CISO 30k:** Diretora de segurança precisa garantir que TODO MUNDO na empresa saiba identificar um golpe. O treinamento tem que ser contínuo.
+- **Regra de ouro:** Desconfiar de tudo que pede ação urgente. Cliente nenhum vai te mandar um email "resolve agora ou perde tudo".
+- **Lembrete:** A tecnologia mais avançada do mundo não adianta se alguém entrega a senha por telefone.
