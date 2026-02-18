@@ -32,4 +32,38 @@ Faz login uma vez e acessa vários sistemas sem precisar logar de novo.
 ---
 
 ## 💡 Meus insights
-[adicione aqui suas observações pessoais]
+- **Tipos de autenticação:**
+  - **Local:** login direto no PC (menos seguro)
+  - **Rede:** servidor centralizado valida (Active Directory)
+  - **Remota:** VPN, SSH (acesso de fora)
+
+- **Windows:**
+  - **Kerberos:** moderno, usa tickets, não transmite senha. É o padrão hoje.
+  - **NTLM:** legado, ainda existe por compatibilidade mas é mais fraco.
+
+- **Linux:**
+  - Senhas ficam em `/etc/shadow` com hash (não em texto puro!)
+  - **SSH:** acesso remoto seguro, chave pública/privada
+  - **PAM:** módulos que permitem vários métodos de autenticação
+
+- **SSO:** Login único. Entra uma vez, acessa tudo. Prático mas perigoso: se roubarem a conta, roubaram tudo.
+
+- **Protocolos:**
+  - **PAP:** senha em texto claro (NUNCA usar!)
+  - **CHAP:** desafio-resposta, mais seguro
+  - **MS-CHAP:** versão Microsoft do CHAP
+
+- **Ataques a senhas:**
+  - **Força bruta:** testa todas combinações (demora)
+  - **Dicionário:** testa palavras comuns (mais rápido)
+  - **Híbrido:** dicionário + números/símbolos (senha → Senha123)
+  - **Pulverização:** mesma senha em várias contas (evita bloqueio)
+  - **Offline:** ataca o hash roubado (mais perigoso, sem limite de tentativas)
+
+- **Na prática:** 
+  - Sempre usar MFA quando possível.
+  - Senha forte é longa, com símbolos, e única pra cada serviço.
+
+- **Como Purple Team:** 
+  - Testar a política de senhas: será que ela realmente protege?
+  - Simular ataques de pulverização pra ver se o sistema detecta.
