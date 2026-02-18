@@ -21,4 +21,11 @@ Todos os pontos onde alguém pode tentar invadir.
 ---
 
 ## 💡 Meus insights
-[adicione aqui suas observações pessoais]
+- **Black hat vs White hat:** Mesmas habilidades, escolhas diferentes. Igual uma ferramenta: pode construir ou destruir dependendo de quem usa.
+- **Gray hat:** Esse me deixou confusa. Hacker que invade sem permissão mas não faz mal? Acho que é zona cinzenta mesmo.
+- **Script kiddie:** Eu era assim! Baixava ferramenta e saía usando sem entender nada. Agora quero entender de verdade.
+- **Hacktivista:** Lembrei do Anonymous. Invadem por causas políticas ou sociais, não por dinheiro.
+- **Superfície de ataque:** Quanto mais serviço rodando, mais chance de invasão. É tipo casa com muitas portas.
+- **Threat Intelligence:** Achei muito útil! Saber o que o atacante vai fazer antes dele fazer é vantagem no xadrez.
+- **Pra ser Purple Team:** Preciso entender como cada tipo de hacker pensa. O que motiva cada um?
+- **CISO 30k:** Diretora de segurança precisa saber que tipo de ameaça a empresa enfrenta. Priorizar é chave.
