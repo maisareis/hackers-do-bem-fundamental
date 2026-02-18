@@ -27,7 +27,7 @@
 ---
 
 ## 💡 Meus insights
-- **Sobre a Tríade CIA:** Percebi que na prática, a Disponibilidade é a mais difícil de garantir porque depende de dinheiro pra ter redundância. Já vi sistema cair e ninguém conseguir acessar - falha na Disponibilidade!
+- **Sobre a Tríade CIA:** Percebi que na prática, a Disponibilidade é a mais difícil de garantir porque depende de dinheiro pra ter redundância.
 - **Risco:** Entendi que risco não é só "vai acontecer ou não", é uma conta matemática: probabilidade × impacto. Tipo seguro de carro.
 - **NIST:** Decorar os 5 passos é mais fácil com essa ordem: ID-PRO-DE-RE-RE (Identificar, Proteger, Detectar, Responder, Recuperar)
 - **Dúvida:** Será que pequenas empresas conseguem aplicar os 5 passos ou só o básico?
