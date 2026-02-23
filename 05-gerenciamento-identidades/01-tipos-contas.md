@@ -45,6 +45,5 @@
 - **Rotação de cargos:** Além de segurança, ajuda a equipe a não ficar refém de uma pessoa que sabe tudo.
 - **Licença obrigatória:** Espertinho! Enquanto o funcionário tá de férias, dá pra ver se ele tava fazendo coisa errada.
 - **Offboarding:** Imagina esquecer de desativar a conta e o ex-funcionário continuar acessando tudo. Pesadelo!
-- **Contas compartilhadas:** Se alguém faz merda, não tem como saber quem foi. Evitar ao máximo.
+- **Contas compartilhadas:** Se alguém faz caquinha, não tem como saber quem foi. Evitar ao máximo.
 - **Chaves SSH:** Muito mais seguro que senha, mas tem que proteger a chave privada como um tesouro.
-- **Dúvida:** Como uma empresa média gerencia centenas de contas e permissões sem enlouquecer? Deve ter ferramenta pra isso.
