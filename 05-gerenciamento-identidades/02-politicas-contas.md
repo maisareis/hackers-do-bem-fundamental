@@ -52,4 +52,3 @@ Informações associadas a cada conta:
 - **Auditoria de contas:** Logs salvam! Sem registro, não tem como provar nada.
 - **Permissões:** Dar execução só pra quem realmente precisa. Evita que usuário comum rode programa malicioso.
 - **Bloqueio vs Desabilitação:** Bloqueio é "castigo" temporário, desabilitação é fim de linha.
-- **Dúvida:** Como auditar milhões de eventos sem perder o que realmente importa? Deve ter ferramenta que correlaciona.
